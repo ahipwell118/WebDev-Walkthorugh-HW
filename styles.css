@@ -1,0 +1,45 @@
+/* Fixed Navigation Bar */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    padding: 10px;
+    z-index: 100; /* Keeps it above everything else */
+}
+
+/* Add space at the top so content doesn't hide under the header */
+body {
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar floated to the right */
+.sidebar {
+    float: right;
+    width: 20%;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    height: 100vh;
+    font-size: 0.9em;
+}
+
+/* Main text area */
+.main-text {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Style the links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red; /* Link state change from Chapter 24 */
+}
